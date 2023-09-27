@@ -1,2 +1,2 @@
-insert into tb_cozinha (nome_cozinha) values ('Tailandesa');
-insert into tb_cozinha (nome_cozinha) values ('Indiana');
+insert into cozinha (nome) values ('Tailandesa');
+insert into cozinha (nome) values ('Indiana');

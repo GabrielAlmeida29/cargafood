@@ -11,14 +11,14 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tb_restaurante")
 public class Restaurante {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
-	@Column(name="nome_restaurante")
+
 	private String nome;
+	
 	@Column(name="taxa_frete_restaurante")
 	private BigDecimal taxaFrete;
 	
